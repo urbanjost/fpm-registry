@@ -1,45 +1,31 @@
 #[M_calculator]
 #"latest" = {git="https://github.com/urbanjost/M_calculator"}
-
 #[M_CLI]
 #"latest" = {git="https://github.com/urbanjost/M_CLI"}
-
 #[M_CLI2]
 #"latest" = {git="https://github.com/urbanjost/M_CLI2"}
-
 #[M_color]
 #"latest" = {git="https://github.com/urbanjost/M_color"}
-
 #[M_draw]
 #"latest" = {git="https://github.com/urbanjost/M_draw"}
-
 #[M_escape]
 #"latest" = {git="https://github.com/urbanjost/M_escape"}
-
 #[M_history]
 #"latest" = {git="https://github.com/urbanjost/M_history"}
-
 #[M_io]
 #"latest" = {git="https://github.com/urbanjost/M_io"}
-
 #[M_kracken95]
 #"latest" = {git="https://github.com/urbanjost/M_kracken95"}
-
 #[M_msg]
 #"latest" = {git="https://github.com/urbanjost/M_msg"}
-
 #[M_pixel]
 #"latest" = {git="https://github.com/urbanjost/M_pixel"}
-
 #[M_process]
 #"latest" = {git="https://github.com/urbanjost/M_process"}
-
 #[M_strings]
 #   "latest" = {git="https://github.com/urbanjost/M_strings"}
-
 #[M_system]
 #   "latest" = {git="https://github.com/urbanjost/M_system"}
-
 #[M_time]
 #"latest" = {git="https://github.com/urbanjost/M_time"}
 ############################################################################################################
