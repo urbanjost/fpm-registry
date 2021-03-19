@@ -1,54 +1,5 @@
 {
     "packages": {
-        "M_uuid": {
-            "latest": {
-                "name": "M_uuid",
-                "version": "0.1.0",
-                "license": "MIT",
-                "author": "John S. Urban",
-                "maintainer": "urbanjost@comcast.com",
-                "copyright": "Copyright 2021, John S. Urban",
-                "description": "module to produce a UUID string",
-                "executable": [
-                    {
-                        "name": "unique",
-                        "source-dir": "app",
-                        "main": "unique.f90",
-                        "dependencies": {
-                            "M_CLI2": {
-                                "git": "https://github.com/urbanjost/M_CLI2.git"
-                            }
-                        }
-                    }
-                ],
-                "dependencies": null,
-                "dev-dependencies": null,
-                "git": "https://github.com/urbanjost/M_uuid",
-                "git-tag": null
-            }
-        },
-        "M_intrinsics": {
-            "latest": {
-                "name": "M_intrinsics",
-                "version": "0.1.0",
-                "license": "Public Domain",
-                "author": "John S. Urban",
-                "maintainer": "urbanjost@comcast.net",
-                "copyright": "2020 John S. Urban",
-                "description": "module of text descriptions of Fortran intrinsics and features",
-                "executable": [
-                    {
-                        "name": "bull",
-                        "source-dir": "app",
-                        "main": "main.f90"
-                    }
-                ],
-                "dependencies": null,
-                "dev-dependencies": null,
-                "git": "https://github.com/urbanjost/M_intrinsics",
-                "git-tag": null
-            }
-        },
         "fpm-man": {
             "latest": {
                 "name": "fpm-man",
@@ -57,7 +8,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "display Fortran intrinsics documentation",
+                "description": "fpm plug-in application that displays Fortran intrinsics documentation",
                 "executable": [
                     {
                         "name": "fpm-man",
@@ -84,6 +35,35 @@
                 },
                 "dev-dependencies": null,
                 "git": "https://github.com/urbanjost/fpm-man",
+                "git-tag": null
+            }
+        },
+        "fpm-dict": {
+            "latest": {
+                "name": "dict",
+                "version": "1.0.0",
+                "license": "MIT",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2021 John S. Urban",
+                "description": "fpm plug-in to look up words and descriptions on WWW using fortran-curl(3f)/libcurl(3c)",
+                "executable": [
+                    {
+                        "name": "dict",
+                        "source-dir": "app/",
+                        "main": "fpm-dict.f90"
+                    }
+                ],
+                "dependencies": {
+                    "M_CLI2": {
+                        "git": "https://github.com/urbanjost/M_CLI2.git"
+                    },
+                    "fortran-curl": {
+                        "git": "https://github.com/interkosmos/fortran-curl"
+                    }
+                },
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/fpm-dict",
                 "git-tag": null
             }
         },
@@ -135,6 +115,55 @@
                 },
                 "dev-dependencies": null,
                 "git": "https://github.com/brocolis/fpm-search",
+                "git-tag": null
+            }
+        },
+        "M_uuid": {
+            "latest": {
+                "name": "M_uuid",
+                "version": "0.1.0",
+                "license": "MIT",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.com",
+                "copyright": "Copyright 2021, John S. Urban",
+                "description": "module to produce a UUID string",
+                "executable": [
+                    {
+                        "name": "unique",
+                        "source-dir": "app",
+                        "main": "unique.f90",
+                        "dependencies": {
+                            "M_CLI2": {
+                                "git": "https://github.com/urbanjost/M_CLI2.git"
+                            }
+                        }
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_uuid",
+                "git-tag": null
+            }
+        },
+        "M_intrinsics": {
+            "latest": {
+                "name": "M_intrinsics",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": "module of text descriptions of Fortran intrinsics and features",
+                "executable": [
+                    {
+                        "name": "bull",
+                        "source-dir": "app",
+                        "main": "main.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_intrinsics",
                 "git-tag": null
             }
         },
@@ -258,7 +287,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "string manipulation (STD:2008)",
+                "description": " maintain sorted lists of INTRINSIC type",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": {
@@ -361,5 +390,5 @@
             }
         }
     },
-    "index-date": "Fri Mar 19 08:39:13 2021"
+    "index-date": "Fri Mar 19 12:23:08 2021"
 }

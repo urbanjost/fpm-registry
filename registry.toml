@@ -1,78 +1,72 @@
-#[M_calculator]
-#"latest" = {git="https://github.com/urbanjost/M_calculator"}
-#[M_CLI]
-#"latest" = {git="https://github.com/urbanjost/M_CLI"}
-#[M_CLI2]
-#"latest" = {git="https://github.com/urbanjost/M_CLI2"}
-#[M_color]
-#"latest" = {git="https://github.com/urbanjost/M_color"}
-#[M_draw]
-#"latest" = {git="https://github.com/urbanjost/M_draw"}
-#[M_escape]
-#"latest" = {git="https://github.com/urbanjost/M_escape"}
-#[M_history]
-#"latest" = {git="https://github.com/urbanjost/M_history"}
-#[M_io]
-#"latest" = {git="https://github.com/urbanjost/M_io"}
-#[M_kracken95]
-#"latest" = {git="https://github.com/urbanjost/M_kracken95"}
-#[M_msg]
-#"latest" = {git="https://github.com/urbanjost/M_msg"}
-#[M_pixel]
-#"latest" = {git="https://github.com/urbanjost/M_pixel"}
-#[M_process]
-#"latest" = {git="https://github.com/urbanjost/M_process"}
-#[M_strings]
-#   "latest" = {git="https://github.com/urbanjost/M_strings"}
-#[M_system]
-#   "latest" = {git="https://github.com/urbanjost/M_system"}
-#[M_time]
-#"latest" = {git="https://github.com/urbanjost/M_time"}
+# [M_calculator]
+#                "latest" = {git="https://github.com/urbanjost/M_calculator"}
+# [M_CLI]
+#                "latest" = {git="https://github.com/urbanjost/M_CLI"}
+# [M_CLI2]
+#                "latest" = {git="https://github.com/urbanjost/M_CLI2"}
+# [M_color]
+#                "latest" = {git="https://github.com/urbanjost/M_color"}
+# [M_draw]
+#                "latest" = {git="https://github.com/urbanjost/M_draw"}
+# [M_escape]
+#                "latest" = {git="https://github.com/urbanjost/M_escape"}
+# [M_history]
+#                "latest" = {git="https://github.com/urbanjost/M_history"}
+# [M_io]
+#                "latest" = {git="https://github.com/urbanjost/M_io"}
+# [M_kracken95]
+#                "latest" = {git="https://github.com/urbanjost/M_kracken95"}
+# [M_msg]
+#                "latest" = {git="https://github.com/urbanjost/M_msg"}
+# [M_pixel]
+#                "latest" = {git="https://github.com/urbanjost/M_pixel"}
+# [M_process]
+#                "latest" = {git="https://github.com/urbanjost/M_process"}
+# [M_strings]
+#                "latest" = {git="https://github.com/urbanjost/M_strings"}
+# [M_system]
+#                "latest" = {git="https://github.com/urbanjost/M_system"}
+# [M_time]
+#                "latest" = {git="https://github.com/urbanjost/M_time"}
 ############################################################################################################
 # THIS WAS RENAMED. NEED TO UPDATE IN REGISTRY
-#[M_change]
-#"latest" = {git="https://github.com/urbanjost/M_change"}
+# [M_change]
+#                "latest" = {git="https://github.com/urbanjost/M_change"}
 ############################################################################################################
-[M_uuid]
-"latest" = {git="https://github.com/urbanjost/M_uuid"}
-
-[M_intrinsics]
-"latest" = {git="https://github.com/urbanjost/M_intrinsics"}
-
+# plug-in Applications
 [fpm-man]
-"latest" = {git="https://github.com/urbanjost/fpm-man"}
-
+                 "latest" = {git="https://github.com/urbanjost/fpm-man"}
+[fpm-dict]
+                 "latest" = {git="https://github.com/urbanjost/fpm-dict"}
 [fpm-search]
-"latest" = {git="https://github.com/brocolis/fpm-search"}
-
-[general-purpose-fortran]
-"latest" = {git="https://github.com/urbanjost/general-purpose-fortran"}
-
-[M_slices]
-"latest" = {git="https://github.com/urbanjost/M_slices"}
-
-[M_path]
-"latest" = {git="https://github.com/urbanjost/M_path"}
-
-[M_readline]
-"latest" = {git="https://github.com/urbanjost/M_readline"}
-
-[M_list]
-"latest" = {git="https://github.com/urbanjost/M_list"}
-
-[M_sort]
-"latest" = {git="https://github.com/urbanjost/M_sort"}
-
-[M_match]
-"latest" = {git="https://github.com/urbanjost/M_match"}
-
-[M_calcomp]
-"latest" = {git="https://github.com/urbanjost/M_calcomp"}
-
-[M_ncurses]
-"latest" = {git="https://github.com/urbanjost/M_ncurses"}
+                 "latest" = {git="https://github.com/brocolis/fpm-search"}
 ############################################################################################################
-
+# Applications
+############################################################################################################
+# Modules
+[M_uuid]
+                 "latest" = {git="https://github.com/urbanjost/M_uuid"}
+[M_intrinsics]
+                 "latest" = {git="https://github.com/urbanjost/M_intrinsics"}
+[general-purpose-fortran]
+                 "latest" = {git="https://github.com/urbanjost/general-purpose-fortran"}
+[M_slices]
+                 "latest" = {git="https://github.com/urbanjost/M_slices"}
+[M_path]
+                 "latest" = {git="https://github.com/urbanjost/M_path"}
+[M_readline]
+                 "latest" = {git="https://github.com/urbanjost/M_readline"}
+[M_list]
+                 "latest" = {git="https://github.com/urbanjost/M_list"}
+[M_sort]
+                 "latest" = {git="https://github.com/urbanjost/M_sort"}
+[M_match]
+                 "latest" = {git="https://github.com/urbanjost/M_match"}
+[M_calcomp]
+                 "latest" = {git="https://github.com/urbanjost/M_calcomp"}
+[M_ncurses]
+                 "latest" = {git="https://github.com/urbanjost/M_ncurses"}
+############################################################################################################
 #drwxrwxr-x 11 urbanjs urbanjs 4096 Mar 17 20:11 /home/urbanjs/venus/V600/github/M_BRE
 #drwxrwxrwx  7 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_curl
 #drwxrwxrwx  9 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_evaluate
