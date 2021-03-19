@@ -1,8 +1,17 @@
 # fpm-registry
+__This is strictly a test repository, not an official `fpm` repository.__
 
-Centralized registry of [fpm](https://github.com/fortran-lang/fpm)
+This repository is a Personal registry of [fpm](https://github.com/fortran-lang/fpm)
 packages for the [fortran-lang](https://fortran-lang.org) site.
 
+This is a fork of the 
+[Centralized fpm repository](https://github.com/fortran-lang/fpm-registry)
+that can be used as an alternate repository for the 
+fpm-search 
+command. It contains `fpm` packages not currently listed in the __Central
+fpm Repository__ and can be useful, but is not an official repository.
+
+<!--
 ## How to submit a new package
 
 Your new registry submittal should first meet the 
@@ -60,3 +69,4 @@ The
 forum is another valuable avenue for help as well as for general
 discussion and announcements related to the 
 [Fortran Programming Language](https://fortran-lang.org).
+-->

@@ -1,97 +1,74 @@
-[datetime]
-"1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
-"latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
+#[M_calculator]
+#"latest" = {git="https://github.com/urbanjost/M_calculator"}
 
-[dftd4]
-latest.git = "https://github.com/dftd4/dftd4"
+#[M_CLI]
+#"latest" = {git="https://github.com/urbanjost/M_CLI"}
 
-[fhash]
-"0.1.0" = {git="https://github.com/LKedward/fhash", tag="v0.1.0"}
-"latest" = {git="https://github.com/LKedward/fhash"}
+#[M_CLI2]
+#"latest" = {git="https://github.com/urbanjost/M_CLI2"}
 
-[iso_varying_string]
-"latest" = {git="https://gitlab.com/everythingfunctional/iso_varying_string"}
+#[M_color]
+#"latest" = {git="https://github.com/urbanjost/M_color"}
 
-[jsonff]
-"latest" = {git="https://gitlab.com/everythingfunctional/jsonff"}
+#[M_draw]
+#"latest" = {git="https://github.com/urbanjost/M_draw"}
 
-[M_calculator]
-"latest" = {git="https://github.com/urbanjost/M_calculator"}
+#[M_escape]
+#"latest" = {git="https://github.com/urbanjost/M_escape"}
 
-[M_change]
-"latest" = {git="https://github.com/urbanjost/M_change"}
+#[M_history]
+#"latest" = {git="https://github.com/urbanjost/M_history"}
 
-[M_CLI]
-"latest" = {git="https://github.com/urbanjost/M_CLI"}
+#[M_io]
+#"latest" = {git="https://github.com/urbanjost/M_io"}
 
-[M_CLI2]
-"latest" = {git="https://github.com/urbanjost/M_CLI2"}
+#[M_kracken95]
+#"latest" = {git="https://github.com/urbanjost/M_kracken95"}
 
-[M_color]
-"latest" = {git="https://github.com/urbanjost/M_color"}
+#[M_msg]
+#"latest" = {git="https://github.com/urbanjost/M_msg"}
 
-[M_draw]
-"latest" = {git="https://github.com/urbanjost/M_draw"}
+#[M_pixel]
+#"latest" = {git="https://github.com/urbanjost/M_pixel"}
 
-[M_escape]
-"latest" = {git="https://github.com/urbanjost/M_escape"}
+#[M_process]
+#"latest" = {git="https://github.com/urbanjost/M_process"}
 
-[M_history]
-"latest" = {git="https://github.com/urbanjost/M_history"}
+#[M_strings]
+#   "latest" = {git="https://github.com/urbanjost/M_strings"}
 
-[M_io]
-"latest" = {git="https://github.com/urbanjost/M_io"}
+#[M_system]
+#   "latest" = {git="https://github.com/urbanjost/M_system"}
 
-[M_kracken95]
-"latest" = {git="https://github.com/urbanjost/M_kracken95"}
+#[M_time]
+#"latest" = {git="https://github.com/urbanjost/M_time"}
+############################################################################################################
+# THIS WAS RENAMED. NEED TO UPDATE IN REGISTRY
+#[M_change]
+#"latest" = {git="https://github.com/urbanjost/M_change"}
+############################################################################################################
+[M_uuid]
+"latest" = {git="https://github.com/urbanjost/M_uuid"}
 
-[M_msg]
-"latest" = {git="https://github.com/urbanjost/M_msg"}
+[M_intrinsics]
+"latest" = {git="https://github.com/urbanjost/M_intrinsics"}
 
-[M_pixel]
-"latest" = {git="https://github.com/urbanjost/M_pixel"}
+[fpm-man]
+"latest" = {git="https://github.com/urbanjost/fpm-man"}
+############################################################################################################
 
-[M_process]
-"latest" = {git="https://github.com/urbanjost/M_process"}
-
-[M_strings]
-   "latest" = {git="https://github.com/urbanjost/M_strings"}
-
-[M_system]
-   "latest" = {git="https://github.com/urbanjost/M_system"}
-
-[M_time]
-"latest" = {git="https://github.com/urbanjost/M_time"}
-
-[mctc-gcp]
-latest.git = "https://github.com/grimme-lab/gcp.git"
-
-[mctc-lib]
-latest.git = "https://github.com/grimme-lab/mctc-lib.git"
-
-[mstore]
-latest.git = "https://github.com/grimme-lab/mstore.git"
-
-[multicharge]
-latest.git = "https://github.com/grimme-lab/multicharge.git"
-
-[pointsets]
-"latest" = {git="https://github.com/arjenmarkus/pointsets"}
-
-[quaff]
-"latest" = {git="https://gitlab.com/everythingfunctional/quaff"}
-
-[s-dftd3]
-latest.git = "https://github.com/awvwgk/simple-dftd3.git"
-
-[sqliteff]
-"latest" = {git="https://gitlab.com/everythingfunctional/sqliteff"}
-
-[strff]
-"latest" = {git="https://gitlab.com/everythingfunctional/strff"}
-
-[toml-f]
-latest.git = "https://github.com/toml-f/toml-f.git"
-
-[vegetables]
-"latest" = {git="https://gitlab.com/everythingfunctional/vegetables"}
+#drwxrwxr-x 11 urbanjs urbanjs 4096 Mar 17 20:11 /home/urbanjs/venus/V600/github/M_BRE
+#drwxrwxrwx 12 urbanjs urbanjs 4096 Mar 17 17:53 /home/urbanjs/venus/V600/github/M_calcomp
+#drwxrwxrwx  7 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_curl
+#drwxrwxrwx  9 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_evaluate
+#drwxrwxrwx  3 urbanjs urbanjs 4096 Jan 12 22:33 /home/urbanjs/venus/V600/github/M_generic_linked_list
+#drwxrwxrwx  9 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_html
+#drwxrwxrwx  5 urbanjs urbanjs 4096 Mar 10 16:48 /home/urbanjs/venus/V600/github/M_kracken2015
+#drwxrwxrwx 10 urbanjs urbanjs 4096 Mar 10 16:48 /home/urbanjs/venus/V600/github/M_list
+#drwxrwxrwx 11 urbanjs urbanjs 4096 Mar 17 18:24 /home/urbanjs/venus/V600/github/M_match
+#drwxrwxrwx 11 urbanjs urbanjs 4096 Mar 10 16:48 /home/urbanjs/venus/V600/github/M_ncurses
+#drwxrwxrwx  9 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_path
+#drwxrwxrwx 10 urbanjs urbanjs 4096 Mar 10 16:49 /home/urbanjs/venus/V600/github/M_readline
+#drwxrwxrwx 10 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_slices
+#drwxrwxrwx 10 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_sort
+#drwxrwxrwx  2 urbanjs urbanjs 4096 Feb  8 20:26 /home/urbanjs/venus/V600/github/M_xml
