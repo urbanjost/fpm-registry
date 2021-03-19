@@ -55,6 +55,9 @@
 
 [fpm-man]
 "latest" = {git="https://github.com/urbanjost/fpm-man"}
+
+[fpm-search]
+"latest" = {git="https://github.com/brocolis/fpm-search"}
 ############################################################################################################
 
 #drwxrwxr-x 11 urbanjs urbanjs 4096 Mar 17 20:11 /home/urbanjs/venus/V600/github/M_BRE
