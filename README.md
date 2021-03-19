@@ -8,7 +8,11 @@ This is a fork of the
 [Centralized fpm repository](https://github.com/fortran-lang/fpm-registry)
 that can be used as an alternate repository for the 
 fpm-search 
-command. It contains `fpm` packages not currently listed in the __Central
+command:
+```bash
+fpm-search --registry 'https://github.com/urbanjost/fpm-registry/raw/master/index.json' -force-download 
+```
+It contains `fpm` packages not currently listed in the __Central
 fpm Repository__ and can be useful, but is not an official repository.
 
 <!--

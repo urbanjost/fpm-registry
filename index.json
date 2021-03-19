@@ -8,7 +8,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.com",
                 "copyright": "Copyright 2021, John S. Urban",
-                "description": null,
+                "description": "module to produce a UUID string",
                 "executable": [
                     {
                         "name": "unique",
@@ -35,7 +35,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "module of text descriptions of Fortran intrinsics and features",
                 "executable": [
                     {
                         "name": "bull",
@@ -88,5 +88,5 @@
             }
         }
     },
-    "index-date": "Thu Mar 18 20:34:22 2021"
+    "index-date": "Thu Mar 18 20:53:20 2021"
 }
