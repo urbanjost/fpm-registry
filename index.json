@@ -37,7 +37,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "display Fortran intrinsics documentation",
+                "description": "fpm plug-in application that displays Fortran intrinsics documentation",
                 "executable": [
                     {
                         "name": "fpm-man",
@@ -150,7 +150,7 @@
         "general-purpose-fortran": {
             "latest": {
                 "name": "GPF",
-                "version": "2021.17.17",
+                "version": "2021.21.21",
                 "license": "Primarily MIT and PD",
                 "author": "John S. Urban and GPF maintainers",
                 "maintainer": "urbanjost@comcast.net",
@@ -216,7 +216,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "string manipulation (STD:2008)",
+                "description": " maintain sorted lists of INTRINSIC type",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": {
@@ -258,7 +258,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "basic numeric expression parser",
+                "description": "OOP interface for operations on a POSIX pathname",
                 "executable": [
                     {
                         "name": "path",
@@ -296,11 +296,11 @@
             "latest": {
                 "name": "M_readline",
                 "version": "0.1.0",
-                "license": "license",
+                "license": "MIT",
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "Fortran-callable interfae to the C input history editor readline(3c)",
+                "description": "Fortran-callable interface to the C input history editor readline(3c)",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -350,11 +350,11 @@
             "latest": {
                 "name": "M_sort",
                 "version": "0.1.0",
-                "license": "license",
+                "license": "Public Domain",
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "Copyright 2021, John S. Urban",
-                "description": null,
+                "description": "sorting procedures",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": {
@@ -372,22 +372,6 @@
                     }
                 },
                 "git": "https://github.com/urbanjost/M_sort",
-                "git-tag": null
-            }
-        },
-        "stdlib-fpm": {
-            "latest": {
-                "name": "stdlib-fpm",
-                "version": "0.0.1",
-                "license": "MIT",
-                "author": "stdlib contributors",
-                "maintainer": "LKedwards@eml.cc",
-                "copyright": "2021 stdlib contributors",
-                "executable": null,
-                "description": null,
-                "dependencies": null,
-                "dev-dependencies": null,
-                "git": "https://github.com/LKedward/stdlib-fpm",
                 "git-tag": null
             }
         },
@@ -419,5 +403,5 @@
             }
         }
     },
-    "index-date": "Sun Mar 21 16:12:45 2021"
+    "index-date": "Sun Mar 21 17:25:11 2021"
 }

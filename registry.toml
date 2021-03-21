@@ -57,8 +57,8 @@
                  "latest" = {git="https://github.com/urbanjost/M_list"}
 [M_match]
                  "latest" = {git="https://github.com/urbanjost/M_match"}
-[M_ncurses]
-                 "latest" = {git="https://github.com/urbanjost/M_ncurses"}
+#[M_ncurses]
+#                 "latest" = {git="https://github.com/urbanjost/M_ncurses"}
 [M_path]
                  "latest" = {git="https://github.com/urbanjost/M_path"}
 [M_readline]
@@ -70,8 +70,8 @@
 [M_uuid]
                  "latest" = {git="https://github.com/urbanjost/M_uuid"}
 # External Modules
-[stdlib-fpm]
-		 "latest" = { git = "https://github.com/LKedward/stdlib-fpm" }
+#[stdlib-fpm]
+#		 "latest" = { git = "https://github.com/LKedward/stdlib-fpm" }
 ############################################################################################################
 #drwxrwxr-x 11 urbanjs urbanjs 4096 Mar 17 20:11 /home/urbanjs/venus/V600/github/M_BRE
 #drwxrwxrwx  7 urbanjs urbanjs 4096 Mar 15 00:17 /home/urbanjs/venus/V600/github/M_curl
