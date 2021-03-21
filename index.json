@@ -402,6 +402,22 @@
                 "git-tag": null
             }
         }
+        "stdlib-fpm": {
+            "latest": {
+                "name": "stdlib-fpm",
+                "version": "0.0.1",
+                "license": "MIT",
+                "author": "stdlib contributors",
+                "maintainer": "LKedwards@eml.cc",
+                "copyright": "2021 stdlib contributors",
+                "executable": null,
+                "description": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/LKedward/stdlib-fpm",
+                "git-tag": null
+            }
+        },
     },
-    "index-date": "Sun Mar 21 16:07:45 2021"
+    "index-date": "Sun Mar 21 16:12:45 2021"
 }
