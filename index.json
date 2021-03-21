@@ -67,6 +67,35 @@
                 "git-tag": null
             }
         },
+        "fpm-time": {
+            "latest": {
+                "name": "fpm-time",
+                "version": "1.0.0",
+                "license": "MIT",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2021 John S. Urban",
+                "description": "fpm plug-in to run generate timing profiles using gprof(1)",
+                "executable": [
+                    {
+                        "name": "fpm-time",
+                        "source-dir": "app/",
+                        "main": "fpm-time.f90"
+                    }
+                ],
+                "dependencies": {
+                    "M_CLI2": {
+                        "git": "https://github.com/urbanjost/M_CLI2"
+                    },
+                    "M_strings": {
+                        "git": "https://github.com/urbanjost/M_strings"
+                    }
+                },
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/fpm-time",
+                "git-tag": null
+            }
+        },
         "fpm-search": {
             "latest": {
                 "name": "fpm-search",
@@ -390,5 +419,5 @@
             }
         }
     },
-    "index-date": "Sun Mar 21 12:37:57 2021"
+    "index-date": "Sun Mar 21 16:01:34 2021"
 }

@@ -38,6 +38,8 @@
                  "latest" = {git="https://github.com/urbanjost/fpm-dict"}
 [fpm-man]
                  "latest" = {git="https://github.com/urbanjost/fpm-man"}
+[fpm-time]
+                 "latest" = {git="https://github.com/urbanjost/fpm-time"}
 # External plug-in Applications
 [fpm-search]
                  "latest" = {git="https://github.com/brocolis/fpm-search"}
